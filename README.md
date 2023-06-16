@@ -70,6 +70,7 @@ If you're using a Mac with an M1 chip, you may encounter installation issues wit
 
 3. A window will appear. Click on 'Upload', then 'Choose File'.
 
+
 By following these steps, users with a Mac M1 chip can seamlessly access and work with the notebook in this repository via Google Colab, avoiding any sklearn and tensorflow installation issues.
 ---
 
