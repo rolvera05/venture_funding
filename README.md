@@ -40,51 +40,54 @@ Activate conda enviorment by running the following function:
 
 **2. Other Libraries** - It was mentioned earlier that the other required libraries should already be installed with the Anaconda package. To confirm installation for these libraries, you can either use the 'conda list' command followed by the library name to confirm installation. Or, you can install the libraries which will either install successfully or if already installed, will result in a 'requirement already satisfied' message. Listed below are the commands to install each library if needed:
         
-        pip install pystan
-        pip install hvplot
-        pip install holoviews
-        pip install prophet
+        pip install sklearn
+        pip install tensorflow
 
 
-**3. Clone Repo** - Once you have checked off all previous installation steps, its now time to clone/download this repository onto your local machine for use. To do that, first copy the SSH keys.
+**3. Clone Repo**
 
-Now, in your terminal cd to a location where you want this repo folder to reside. Once you are in your preferred current directory, enter the following:
+After completing all prerequisite installations, you're ready to clone this repository to your local machine. To do this, begin by copying the SSH keys.
 
-        git clone 'ssh keys here'
+Next, navigate to the directory in your terminal where you want this repository to be placed. Once you're in your desired directory, execute the following command:
 
-To run the repo folder in JupyterLab for usage, simply cd to the repo folder, then type and enter:
+        git clone 'paste ssh keys here'
+
+To operate the repository in JupyterLab, navigate into the repository folder by typing:
+
+        cd 'repository folder name'
+
+Then, initiate JupyterLab by entering:
 
         jupyter lab
 
-### **IMPORTANT:** The Prophet library can occasionally pose installation challenges on certain systems, so for this project, we utilize Google Colab. This cloud-based IDE enables you to execute Jupyter Notebooks remotely. To work with the content from this repository, follow these steps once you have cloned it to your local machine:
+### **NOTE:** 
 
-1. Open your preferred web browser (Chrome is highly recommended). Enter `https://colab.research.google.com/` in the address bar and hit Enter.
+If you're using a Mac with an M1 chip, you may encounter installation issues with libraries such as sklearn and tensorflow. In such cases, we recommend using Google Colab for this project. This cloud-based IDE enables remote execution of Jupyter Notebooks, bypassing potential installation hurdles. Here's how you can access the notebook from this repository:
 
-2. After the page has loaded, navigate to 'File' in the top-left corner and click on 'Open Notebook'.
+1. Launch your preferred web browser (Chrome recommended). Visit `https://colab.research.google.com/`.
 
-3. A new window will open. Select 'Upload', then click on 'Choose File'. 
+2. Once the page loads, navigate to 'File' at the top-left corner, then select 'Open Notebook'.
 
-By following these instructions, you'll be able to access the notebook contained in this repository through Google Colab, bypassing any potential installation difficulties with Prophet.
+3. A window will appear. Click on 'Upload', then 'Choose File'.
 
+By following these steps, users with a Mac M1 chip can seamlessly access and work with the notebook in this repository via Google Colab, avoiding any sklearn and tensorflow installation issues.
 ---
 
 ## *Usage*
-
-### 1. User Input
 ---
 
-1. **Run the Code**: After you've uploaded your data, you can begin executing your code. Each code cell can be run individually by clicking the 'play' button on the left side of the cell. Alternatively, you can use the shortcut 'Shift+Enter' to run the current cell and advance to the next one.
+**1. Code Execution**: Once your data is uploaded, you can start running your code. Execute each code cell individually by clicking the 'play' button on the cell's left, or use 'Shift+Enter' as a shortcut to run the current cell and move to the next one.
 
-2. **Read Uploaded Files**: With your file uploaded, you can access it directly using its name in your Python scripts. For example, if your file is named `data.csv`, you can use the following snippet to load it into a pandas DataFrame: 
+**2. Accessing Uploaded Files**: After uploading your file, you can reference it directly in your Python scripts by its name. For instance, to load a file named `data.csv` into a pandas DataFrame, use the following code: 
 ```python
 import pandas as pd 
 df = pd.read_csv('data.csv')
 ```
 
-3. **Save Your Notebook**: It's essential to frequently save your work, especially since Google Colab sessions can timeout after a period of inactivity. Navigate to 'File' > 'Save' to save your progress. Alternatively, you can click 'File' > 'Save a copy in Drive' to create a copy of the notebook in your Google Drive.
+**3. Work Preservation**: Regularly save your work since Google Colab sessions may timeout after periods of inactivity. Save your progress by clicking on 'File' > 'Save'. You can also save a copy of the notebook in your Google Drive by choosing 'File' > 'Save a copy in Drive'.
 
-4. **Download the Notebook**: If you want to keep a local copy of your notebook, you can download it by going to 'File' > 'Download .ipynb'. If you prefer a Python script version of your code, choose 'File' > 'Download .py'.
-Once JupyterLab is open with the repo code, the first thing you will do is open the user_input.ipynb notebook. 
+**4. Notebook Download**: To maintain a local copy of your notebook, navigate to 'File' > 'Download .ipynb'. If you need a Python script version, select 'File' > 'Download .py'.
+Once you launch JupyterLab with the repository code, open the 'user_input.ipynb' notebook first.
 
 ---
 
