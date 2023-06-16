@@ -75,7 +75,7 @@ By following these steps, users with a Mac M1 chip can seamlessly access and wor
 ___
 
 ## *Usage*
----
+
 
 **1. Code Execution**: Once your data is uploaded, you can start running your code. Execute each code cell individually by clicking the 'play' button on the cell's left, or use 'Shift+Enter' as a shortcut to run the current cell and move to the next one.
 
