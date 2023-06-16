@@ -12,7 +12,7 @@ Last Updated: 2023-06-16.
 ## *Technologies*
 
 - **Programming Language:** Python
-- **Libraries:** Pandas, hvplot, prophet, pathlib, tensorflow, sklearn
+- **Libraries:** Pandas, pathlib, tensorflow, sklearn
 
 - **Framework:** JupyterLab, Google Colab
 - **Operating Systems:** Mac OS, Microsoft Windows
